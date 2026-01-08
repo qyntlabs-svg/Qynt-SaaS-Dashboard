@@ -15,7 +15,7 @@ import { Billing } from './pages/Billing';
 function App() {
   return (
     <ThemeProvider attribute="class" defaultTheme="dark">
-      <Router>
+      <Router basename="/Qynt-SaaS-Dashboard">
         <Routes>
           <Route path="/login" element={<LoginPage />} />
           <Route path="/" element={<DashboardLayout />}>
